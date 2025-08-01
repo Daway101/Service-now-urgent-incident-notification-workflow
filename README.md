@@ -12,9 +12,9 @@ Role-based security and access controls are in place to restrict who can view, r
 
 ## ⚙️ Implementation Steps
 
-### 1. Create Flow Using Flow Designer
+### 1. Create Flow Using Workflow Studio
 
-- Navigate to: **Flow Designer > New**
+- Navigate to: **Workflow Studio > New**
 - **Flow Name**: `Critical Network Incident Notification Flow`
 - **Trigger**: `Incident Created` on **Incident Table**
 - **Conditions**:
@@ -69,6 +69,10 @@ Confirm that the notification is received by impersonating a user in the Network
   - Ensure the `Network Operations` group only includes authorized personnel
 - **Notification Access**:
   - Validate recipient list to avoid exposure of incident data to unintended users
+
+---
+
+![Incident Notification Workflow Diagram](https://github.com/Daway101/Service-now-urgent-incident-notification-workflow/raw/main/Diagram.png)
 
 ---
 
